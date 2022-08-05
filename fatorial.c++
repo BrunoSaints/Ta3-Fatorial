@@ -1,7 +1,7 @@
 int fatorial(int valor) {
-    if (/* condition */)
-    {
-        /* code */
+    if (valor != 1) {
+        return valor * fatorial(valor - 1);
+    } else {
+        return valor;
     }
-    
 }
