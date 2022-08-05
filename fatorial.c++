@@ -4,6 +4,5 @@ int fatorial(int valor) {
         return valor * fatorial(valor - 1);
     } else {
         return valor;
-        printf("%d", valor);
     }
 }
